@@ -14,7 +14,8 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "RG_1" {
-  location = "eastus2"
+name = "IT356-TF-RG"
+location = "eastus2"
 }
 
 resource "azurerm_virtual_network" "vnet" {
